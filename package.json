@@ -9,6 +9,7 @@
     "express-session": "^1.18.2",
     "globals": "^16.3.0",
     "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
     "lint": "^0.8.19",
     "mongodb": "^6.18.0",
     "nodemon": "^3.1.10",
@@ -29,14 +30,13 @@
     "mocha": "^2.5.3"
   },
   "scripts": {
-    "test": "mocha" ,
+    "test": "mocha",
     "dev": "nodemon index.js",
     "start": "node server.js",
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --write '**/*.{js,json,md}'",
-    "swagger" : "swagger.js"
-
+    "swagger": "swagger.js"
   },
   "repository": {
     "type": "git",
